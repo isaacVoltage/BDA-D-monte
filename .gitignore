@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PySpark Metastore & Derivative outputs
+metastore_db/
+derby.log
+spark-warehouse/
+.spark-staging/
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+env/
+venv/
+ENV/
+.venv/
+
+# Streamlit Local Cache
+.streamlit/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Temporary benchmark files
+data/benchmark_water_quality.csv
+data/uploaded_custom.csv
